@@ -1,0 +1,78 @@
+.banner{
+	
+	background-image: url('../img/ori_img1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.banner h2{
+	font-size: 50px;
+	font-weight: bolder;
+
+}
+.section2 p{
+	font-size: 24px;
+	font-weight: bold;
+}
+.section2 p::before{
+	content: '[';
+	color: darkred;
+}
+.section2 p::after{
+	content: ']';
+	color: darkred;
+}
+.margin-left{
+	margin-left: -100px;
+}
+.module-bg{
+	background-image: url('../img/ori_img4.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.interview{
+	background-image: url('../img/ori_img5.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.interview1{
+	background-image: url('../img/ori_img6.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.vh-60{
+	height: 60vh;
+}
+.interview div{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+.interview1 div{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+
+}
+@media screen and (max-width: 576px){
+	.margin-left{
+	margin-left: 0;
+	}
+   .banner{
+	
+	background-image: url();
+	}
+	.paragraph{
+		
+		font-size: 10px;
+		
+
+	}
+	.content p{
+		font-size: 15px;
+		padding: 3px;
+	}
+	
+	
+}
